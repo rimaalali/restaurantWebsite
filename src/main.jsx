@@ -45,7 +45,9 @@ const router = createBrowserRouter([
   path: "/Admin",
   element: <Admin/>
 },
-]);
+], {
+  basename: '/restaurantWebsite',
+});
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

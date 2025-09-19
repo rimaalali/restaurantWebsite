@@ -1,0 +1,58 @@
+
+.card{
+    width:18rem ;
+    border-radius:30px ;
+height: 400px;
+background-color:  rgb(248, 212, 248);
+border:3px solid #fac0ed ;
+box-shadow:3px 3px 10px rgba(227, 70, 180, 0.73), inset -3px -3px 5px rgb(159, 49, 159) ;
+font-family: Georgia, 'Times New Roman', Times, serif;
+display: flex;
+flex-direction: column;
+
+ }
+.card-body{
+    height: 100px;} 
+
+.card-img-top{
+    width: 287px;
+    height:250px ;
+    border-radius: 30px;
+    max-width:100% ;
+}
+.btm{
+ position: relative;
+     
+    color: rgb(26, 151, 200);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:25px ;
+    background-color: rgb(249, 177, 235);
+    box-shadow:3px 3px 10px rgba(227, 70, 180, 0.73), inset -3px -3px 5px rgb(114, 25, 114) ;
+    border:3px solid #fac0ed ;
+padding:4px 4px ;
+font-family: "Jersey 10", serif;
+border-radius: 10px;
+}
+.btm:active{
+
+    box-shadow:3px 3px 10px rgba(227, 70, 180, 0.73), inset -3px -3px 5px rgb(206, 135, 206) ;
+    
+}
+.first {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+} 
+.dropdown-toggle{
+    position: relative;
+    left: 0;
+    bottom:0px ;
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(180, 97, 225);
+    box-shadow:3px 3px 10px rgba(227, 70, 180, 0.73), inset -3px -3px 5px rgb(206, 135, 206) ;
+    border-color: none;
+    font-size:20px ;
+    border-radius: 20px;
+    background-color: rgb(249, 177, 235);
+}

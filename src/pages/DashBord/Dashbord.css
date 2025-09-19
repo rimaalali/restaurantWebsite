@@ -1,0 +1,47 @@
+*{
+    margin:0 ;
+    padding:0 ;
+}
+
+.dashbord_bg{
+   width:100vw;
+  height: 100vh;
+    background-color:rgb(174, 207, 243) ;
+     background-position:center ;
+  background-repeat: no-repeat;
+  
+}
+.table1{
+  
+  
+    background-color:lightskyblue ;
+      border:3px solid #ccc ; 
+      box-shadow:3px 3px 10px rgba(220, 134, 241, 0.73), inset -3px -3px 5px rgb(205, 91, 146) ;
+}
+.back_h{
+ width:10% ;
+    height:10% ;
+    color: rgb(226, 24, 237);
+  
+    border:3px solid #ccc ;  
+      background-color: rgb(202, 161, 255);
+     box-shadow:3px 3px 10px rgba(139, 134, 241, 0.73), inset -3px -3px 5px rgb(161, 91, 205) ;
+border-radius:20px ;
+font-size:30px ;
+font-family: Georgia, 'Times New Roman', Times, serif;
+margin-top:15px ;
+padding:7px 7px ;
+}
+.border-t{
+   background-color:  rgb(158, 219, 236);
+     border:3px solid #ccc; 
+      box-shadow:3px 3px 10px rgba(186, 240, 124, 0.73), inset -3px -3px 5px rgb(91, 205, 154) ;
+}
+.del{
+ background-color:  rgb(234, 53, 53);
+     border:3px solid white ; 
+      box-shadow:3px 3px 10px rgb(124, 215, 240), inset -3px -3px 5px rgba(16, 5, 5, 0.537) ;}
+.del:hover{
+  background-color:  rgb(239, 155, 218);
+     box-shadow:-3px -3px 10px rgb(124, 215, 240), inset 3px 3px 5px rgba(228, 4, 4, 0.537) ;
+}      

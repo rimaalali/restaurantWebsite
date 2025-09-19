@@ -1,0 +1,140 @@
+*{
+    margin:0 ;
+    padding:0 ;
+}
+.allpage{
+  background:linear-gradient(to top,rgb(241, 162, 251),rgb(168, 225, 243)) !important;
+  
+  background-position:center ;
+  background-repeat: no-repeat;
+  width:100%;
+  height: 100%;
+overflow: hidden;
+display: flex;
+justify-content: space-around;
+flex-direction: column;
+
+}
+.child1{
+     height:70% ;
+    width:100% ;
+    display: flex;
+    justify-content:space-around ;
+ 
+    gap:30px ;
+    flex-direction: column;
+    align-items: center;  
+
+}
+.thing i{
+  background-color: #c8e3fa;
+  border-radius:20px ;
+  padding:5px ;
+  color: #308abf;
+}
+.child1 h2{
+   font-family: Arial, Helvetica, sans-serif;
+ color:rgb(246, 202, 247);
+  background-color: #fd8bd1;
+  margin:7px 7px ;
+  padding:3px 3px ;
+  border-radius: 10px;
+  /* font-family: monospace; */
+}
+
+  .cart-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+.del-but {
+  background-color: rgb(254, 178, 255);
+  color: white;
+  border: none;
+  border-radius:50% ;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.del-but:active{
+  background-color: #f14bca;
+}
+
+.your-bascket{
+ display: flex;
+ flex-direction: column;
+justify-content:space-between;
+align-items: center;
+    height:70% ;
+    width:90% ;
+    border:2px solid rgb(160, 241, 165) ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #63b8e9;
+    background-color:rgb(246, 202, 247);
+border-radius:20px ;
+}
+
+.note{
+ width:70% ;
+ height:100%;  
+
+}
+.logIn {
+    background: #e671c1;
+    padding: 20px;
+    border-radius: 10px;
+    width: 70%;
+    height: 300px;
+    display: flex;
+    justify-content:space-around;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .logo {
+    color: white;
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    color: black;
+  }
+  
+  .location {
+    position: relative;
+  }
+  
+  .orderBut {
+    width: 40%; 
+    padding: 10px;
+   margin-left:60% ;
+    background-color: #f771d8;
+    box-shadow:3px 3px 6px #d89dc6, inset 2px 2px 4px rgb(255, 0, 162);
+    
+    border:rgb(235, 165, 226) solid;
+    border-radius: 40px;
+    text-align: center;
+  
+  }
+  .orderBut:active{
+  background: #ca78de;
+      box-shadow:3px 3px 6px #d89dc6, inset -2px -2px 4px rgb(255, 0, 251);
+  }
+
+  .spaceunderBUY{
+    visibility: hidden; 
+     width:100% ;
+     height: 150PX;
+     position: relative;
+     bottom:0% ;
+   }

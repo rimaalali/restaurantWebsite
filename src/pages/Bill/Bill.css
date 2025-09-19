@@ -1,0 +1,67 @@
+.back{width:100vw ;
+    height:100vh;
+    display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+       background:linear-gradient(to left,rgb(231, 192, 249),rgb(163, 237, 242));
+border:3px solid #ccc ;
+box-shadow:3px 3px 10px rgba(227, 70, 180, 0.73), inset -3px -3px 5px rgb(243, 90, 220) ;
+
+}
+.bill_content{
+     
+    width:60% ;
+position: absolute;
+left:20% ;
+top:10% ;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+    background:linear-gradient(to top,rgb(255, 148, 230),rgb(255, 194, 255));
+border:3px solid #ccc ;
+box-shadow:3px 3px 10px rgba(227, 70, 180, 0.73), inset -3px -3px 5px rgb(243, 90, 220) ;
+border-radius:30px ;
+padding:20px 20px ;
+color: rgb(9, 143, 192);
+}
+.bill_content h1{
+    color: rgb(163, 52, 167);
+    background-color: rgb(253, 136, 222);
+    border:3px solid #ccc ;
+box-shadow:3px 3px 10px rgba(227, 70, 180, 0.73), inset -3px -3px 5px rgb(243, 90, 220) ;
+    /* color: rgb(253, 136, 222); */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   padding:  8px 8px;
+   border-radius:20px ;
+   
+}
+.back_but{width:90px ;
+    height:90px;
+    color: rgb(0, 136, 255);
+  
+    border:3px solid #ccc ;  
+      background-color: rgb(36, 206, 253);
+     box-shadow:3px 3px 10px rgba(241, 134, 209, 0.73), inset -3px -3px 5px rgb(205, 91, 188) ;
+border-radius:20px ;
+font-size:30px ;
+font-family: Georgia, 'Times New Roman', Times, serif;
+position:relative ;
+top:40% ;
+}
+.back_but:hover{
+ 
+         background-color: rgb(127, 227, 255);
+    border:3px solid #ccc ;
+box-shadow:-3px -3px 10px rgba(227, 70, 180, 0.73), inset 3px 3px 5px rgb(243, 90, 220) ;
+}
+  .walk {
+    display: inline-block;
+    animation: marque 1s alternate  infinite;
+  }
+  
+  @keyframes marque {
+     0% { transform: translatey(-40%); }
+    100%{ transform: translatey(40%); }
+  }

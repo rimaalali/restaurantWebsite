@@ -15,14 +15,14 @@ createRoot(document.getElementById("root")).render(
   <StrictMode>
     <HashRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/Sweet" element={<Sweet />} />
-        <Route path="/Drinks" element={<Drinks />} />
-        <Route path="/FastFood" element={<FastFood />} />
-        <Route path="/Buy" element={<Buy />} />
-        <Route path="/Bill" element={<Bill />} />
-        <Route path="/Dashbord" element={<Dashbord />} />
-        <Route path="/Admin" element={<Admin />} />
+        <Route path="/" element={<Home/>} />
+        <Route path="/Sweet" element={<Sweet/>} />
+        <Route path="/Drinks" element={<Drinks/>} />
+        <Route path="/FastFood" element={<FastFood/>} />
+        <Route path="/Buy" element={<Buy/>} />
+        <Route path="/Bill" element={<Bill/>} />
+        <Route path="/Dashbord" element={<Dashbord/>} />
+        <Route path="/Admin" element={<Admin/>} />
       </Routes>
     </HashRouter>
   </StrictMode>

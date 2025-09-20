@@ -11,7 +11,7 @@
     bottom:0%;
     left: 50%;
     transform: translateX(-50%);
-    width:75%;
+    width:85%;
     height:10%;
     background-color:var(--all);
     border:3px solid  rgb(247, 177, 222) ;
@@ -26,8 +26,8 @@ svg{
     color: rgb(160, 54, 137);
 }
 .navbutt {
-    width:50%;
-    height:100%;
+    width:40%;
+    height:90%;
     border-radius: 50%;
     background-color: var(--all) ;
     border: none;

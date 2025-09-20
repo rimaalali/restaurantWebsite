@@ -46,7 +46,7 @@ const router = createBrowserRouter([
   element: <Admin/>
 },
 ], {
-  basename: '/restaurantWebsite',
+  // basename: '/restaurantWebsite',
 });
 
 createRoot(document.getElementById('root')).render(

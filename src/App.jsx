@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 import Home from './pages/Home/Home'
-import Sweet from './pages/Sweet/Sweet'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,7 +12,7 @@ function App() {
   return (
     <>
     <Home/>
-      <Sweet/>
+    
     </>
   )
 }
